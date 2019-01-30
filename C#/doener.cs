@@ -6,8 +6,10 @@ namespace doener
     {
         public static void mit(string senf)
         {
-            Console.WriteLine("döner mit senf");
+            if (senf == "senf")
+            {
+                Console.WriteLine("döner mit senf");
+            }
         }
     }
 }
-
