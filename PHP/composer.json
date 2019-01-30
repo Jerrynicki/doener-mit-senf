@@ -1,0 +1,8 @@
+{
+    "name": "pem/doener",
+    "description": "Doener mit senf",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {}
+}
