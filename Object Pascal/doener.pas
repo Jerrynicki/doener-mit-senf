@@ -10,6 +10,7 @@ uses
 procedure mit(senf: string);
 
 implementation
+
 procedure mit(senf: string);
 begin
   WriteLn('döner mit senf')
