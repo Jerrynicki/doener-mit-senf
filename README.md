@@ -15,3 +15,7 @@ Folgende Kriterien für das Döner-Modul müssen erfüllt sein:
 * Die eigentliche doener.dateiendung Datei, in der das Modul enthalten ist.
 
 * Eine main.dateiendung Datei, welche das Modul importiert und dessen Funktionalität demonstriert (Die mit()-Methode mit dem Argument "senf" aufruft).
+
+
+
+[Inspiriert von MundFiK - Ihr Seid Nicht Cool Sondern Leckere Döner Mit Senf](https://soundcloud.com/mundfik/ihr-seid-nicht-cool-sondern)
