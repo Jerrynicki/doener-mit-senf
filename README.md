@@ -10,8 +10,39 @@ Folgende Kriterien für das Döner-Modul müssen erfüllt sein:
 
 - Es gibt eine Methode/Funktion: "mit", die einen String entgegennimmt, und wenn dieser String "senf" entspricht, wird "döner mit senf" in der Konsole ausgegeben.
 
-- Für jede Programmiersprache sollte ein eigenes Verzeichnis erstellt werden. In diesem sind enthalten:
+# Anwendung der Module
 
-* Die eigentliche doener.dateiendung Datei, in der das Modul enthalten ist.
+## C#
 
-* Eine main.dateiendung Datei, welche das Modul importiert und dessen Funktionalität demonstriert (Die mit()-Methode mit dem Argument "senf" aufruft).
+```C#
+using System;
+using doener;
+public static class doenertest {
+	static void Main() {
+		doener.Doener.mit("senf");
+	}
+}
+```
+
+## JavaScript
+
+```JS
+var doener = require("./doener.js");
+doener.mit("senf");
+```
+
+## Python
+
+```Python
+import doener
+doener.mit("senf")
+```
+
+## Ruby
+
+```Ruby
+require "./doener.rb"
+Doener.mit("senf")
+```
+
+Alternativ kann die Anwendung auch in den jeweiligen Ordnern und den darin befindlichen Skripten nachgesehen werden.
