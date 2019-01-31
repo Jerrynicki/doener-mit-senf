@@ -1,3 +1,3 @@
 function Main()
-    Doener("senf");
+    Doener.mit("senf");
 end
