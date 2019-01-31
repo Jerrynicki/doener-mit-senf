@@ -1,7 +1,8 @@
-#pragma once
+#ifndef DOENER_H
+#define DOENER_H
 #include <string>
-#include <algorithm>
 struct Doener
 {
-	static std::string mit(std::string senf) {return senf == "senf" ? "doener mit senf" : "doener ohne senf :("; }
+	static std::string mit(const std::string senf) { return senf == "senf" ? "doener mit senf" : "";  }
 };
+#endif // DOENER_H
