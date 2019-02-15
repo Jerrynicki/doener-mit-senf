@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1{
+  font-family: "Comic Papyrus","Comic Sans MS","Comic Sans",sans-serif;
+}
+
+.senf{
+  font-size: 20em;
+  color: red;
+}
+
+.isthatlegal{
+  background-color: yellow;
+}
