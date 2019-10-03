@@ -13,7 +13,8 @@ implementation
 
 procedure mit(senf: string);
 begin
-  WriteLn('döner mit senf')
+  if (senf = 'senf') then
+    WriteLn('döner mit senf')
 end;
 
 end.
