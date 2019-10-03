@@ -4,8 +4,8 @@
 
 void mit(char arg[])
 {
-		char senf[5] = "senf";
+	char senf[5] = "senf";
 
-		if (strcmp(arg, senf) == 0)
-				printf("döner mit senf\n");
+	if (strcmp(arg, senf) == 0)
+		printf("döner mit senf\n");
 }
